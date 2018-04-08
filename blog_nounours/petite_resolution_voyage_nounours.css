@@ -1,0 +1,149 @@
+@font-face { 
+	font-family: 'ballpark';
+	src: url('polices/ballpark.eot');
+	src: url('polices/ballpark.svg');
+	src: url('polices/ballpark.woff');
+	src: url('polices/ballpark.ttf');
+}
+@font-face { 
+	font-family: 'dayrom';
+	src: url('polices/dayrom.eot');
+	src: url('polices/dayrom.svg');
+	src: url('polices/dayrom.woff');
+	src: url('polices/dayrom.ttf');
+}
+.page {
+	background-image: url("images/fond_jaune.png");
+	}
+header {
+	background: url('images/separateur.png') repeat-x bottom;
+	}
+.entete {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	}
+.nom { 
+	font-family: ballpark, Arial, serif;
+	color : black;
+	font-size: large;
+}
+.entete strong {
+	font-family: ballpark, Arial, serif;
+	color : black;
+	font-size: xx-large;
+	font-weight:gras;
+}
+.entete span {
+	font-family: dayrom, Arial, serif;
+	color: black;
+}
+.menu {
+	font-size: large;
+}
+nav {
+	font-family: dayrom, Arial, serif;
+	color: black;
+	text-transform: uppercase;
+	}
+.pont{
+   display:none;
+	}
+.article{
+	font-family: dayrom, Arial, serif;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+}
+.blabla {
+	text-align: justify;
+	font-size: small;
+	}
+.auteur {
+	font-family: dayrom, Arial, serif;
+	color: black;
+	background-color: rgba(112,107,100);
+	width: 90%;
+	height: 15%;
+	margin:3% 3% 3% 3%;
+	padding:1% 1% 1% 1%;
+	border-radius:2%;
+	position: relative;
+	color:white;
+}
+.fleche_bulle {
+    position: absolute;
+    top: 100px;
+    left: -12px;
+	display:none;
+}
+footer {	
+	background:url('images/ombre.png') repeat-x top;
+	font-family: dayrom, Arial, serif;
+	color: black;
+	}
+.bas {
+	display: flex;
+	flex-direction: column;
+	text-align:center;
+	}
+h1 {
+	font-size: large;
+	font-family: dayrom, Arial, serif;
+	text-transform:uppercase;
+	font-weight:normal;
+}
+h2 {
+	font-size: medium;
+	font-family: dayrom, Arial, serif;
+	text-transform:uppercase;
+	font-weight:normal;
+}
+.auteur h1 {
+	text-align:center;
+}
+.logo {
+	text-align:center;
+	padding-bottom:2%;
+}
+.bouton_rouge {
+	position: relative;
+    left: 58%;
+    top:15%;
+    background: url('images/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 3px;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+    text-decoration: none;or:white;
+}
+.description {
+    display:none;
+}
+nav li {
+	list-style-type: none;
+	margin-left:2px;
+	margin-right:10px;
+	display:block;
+	float:left; 
+	text-align:center;
+	padding:5px;
+	}
+.bordurebas {
+	text-align:center;
+	background-image:url('images/separateur.png');
+	background-repeat: repeat-x;
+	width:100%;
+}
+.amis {
+	margin-left:40%;
+	margin-right:40%;
+}
+.amis ul {
+	list-style-image: url('images/ico_liensexterne.png');
+}
+.photoszozor {
+    text-align: center;
+}
