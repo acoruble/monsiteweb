@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'dekiru';
+    src: url('polices/Dekiru.ttf');
+}
+@font-face { 
+	font-family: 'korean';
+	src: url('polices/Shrimp.ttf');
+}
+@font-face {
+    font-family: 'fontawesome';
+    src: url('fonts/FontAwesome.otf');
+	src: url('fonts/FontAwesome.eot');
+	src: url('fonts/FontAwesome.svg');
+	src: url('fonts/FontAwesome.ttf');
+	src: url('fonts/FontAwesome.woff');
+}
+section {
+	text-align:center;
+}
+#entete {
+	background-color:#009999;
+	display:flex;
+	justify-content:space-around;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+}
+	#menu li {
+		list-style-type: none;
+		float:left; 
+		padding:7px;
+		font-size: 1.5em;
+		}
+	#menu a {
+		color:white;
+		text-decoration:none;
+		text-align: center;
+		font-family: korean, Serif;
+		text-transform: uppercase;
+	}
+	#menu img {
+		width:25px;
+	}
+	#rectoverso a {
+		color:#5d335e;
+		text-decoration:none;	
+		font-size: 1.5em;
+		text-align: center;
+		font-family: dekiru, Serif;
+		text-transform: uppercase;
+	}
+		@media screen and (max-width: 1024px)
+		{	
+			#entete {
+			display:flex;
+			flex-direction:column;
+			text-align:center;
+			}
+			#menu li {
+			float:none;
+			}
+		}
+#presentation {
+	background-color:#5a025a;
+	padding-top:0.5%;
+	padding-bottom:0.2%;
+	width:100%;
+	display:flex;
+	justify-content: center;
+}
+	#presentation img {
+		width:100%;
+		border: 2px solid #5d335e;
+	}
+	#texte_presentation {
+		width:45%;
+		margin-left:2%;
+	}
+	h1 {
+		color:white;
+		font-size:3em;
+		text-align: center;
+		font-family: dekiru, Serif;
+		text-transform: uppercase;
+	}
+	h2 {
+		color:white;
+		font-size:2em;
+		text-align: center;
+		font-family: korean, Arial;
+	}
+#formation {
+	background-color:#009999;
+}
+	.fa-graduation-cap {
+		font-size:5em;
+		margin-top:1%;
+		color:white;
+	}
+	.fa-graduation-cap:before {
+		content:"";
+		border-right: 6px solid white;
+		padding-right:10%;
+	}
+	#liste_formation {
+		display:flex;
+		justify-content:center;
+		flex-wrap: wrap;
+		padding-top:3%;
+		padding-bottom:3%;
+	}
+	.diplome {
+		display:flex;
+		justify-content:center;
+		width:60%;
+		padding-top:15px;
+	}
+	.lien_formation {
+		width:80%;
+		text-align:right;
+		margin-right:5%;
+	}
+	.lien_formation img {
+		width:30%;
+	}
+	.texte_formation {
+		width:100%;
+		text-align:left;
+		color:white;
+		font-size:2em;
+		font-family: korean, Arial;
+	}
+	
+#experience {
+	background-color:#5a025a;
+}
+	.fa-briefcase {
+		font-size:5em;
+		margin-top:1%;
+		color:white;
+	}
+	.fa-briefcase:before {
+		content:"";
+		border-left: 6px solid white;
+		padding-left:10%;
+	}
+	#liste_experience {
+		display:flex;
+		justify-content:center;
+		flex-wrap: wrap;
+		padding-top:3%;
+		padding-bottom:3%;
+	}
+	.travail {
+		display:flex;
+		justify-content:center;
+		width:80%;
+		padding-top:15px;
+	}
+	.lien_experience {
+		width:80%;
+		text-align:right;
+		margin-right:5%;
+	}
+	.lien_experience img {
+		width:30%;
+	}
+	.texte_experience {
+		width:100%;
+		text-align:left;
+		color:white;
+		font-size:1.7em;
+		font-family: korean, Arial;
+	}
+	.texte_experience span {
+		font-family:dekiru, Serif;
+		font-size:1.7em;
+	}
+#voyage {
+	background-color:#009999;
+}
+	.fa-plane {
+		font-size:5em;
+		margin-top:1%;
+		color:white;
+	}
+	.fa-plane:before {
+		content:"";
+		border-right: 6px solid white;
+		padding-right:10%;
+	}
+	#portfolio_exemple {
+		display:flex;
+		justify-content: space-around;
+		padding-top:5%;
+	}
+	.boite {
+		color: white;
+		font-family:dekiru, Serif;
+		font-size:1.3em;
+	}
+	.boite img {
+		width:60%;
+		border: 3px solid white;
+	}
+#contact {
+	background-color:#5a025a;
+}
+	.fa-question-circle {
+		font-size:5em;
+		margin-top:1%;
+		color:white;
+	}
+	.fa-question-circle:before {
+		content:"";
+		border-left: 6px solid white;
+		padding-left:10%;
+	}
+	h3 {
+		color:white;
+		font-size:3em;
+		text-align: center;
+		font-family: dekiru, Arial;
+		padding-bottom:2%;
+	}
+	h3 span {
+		font-family: korean, Arial;
+		font-size:3em;
+		color:#5d335e;
+	}
